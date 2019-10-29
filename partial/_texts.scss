@@ -1,0 +1,39 @@
+h1 {
+  color: $boxBackgroundColor;
+  text-align: center;
+  font-family: $headerFont;
+  font-weight: 900;
+}
+
+h2 {
+  color: $boxBackgroundColor;
+  font-family: $headerFont;
+  font-weight: 900;
+}
+
+h3 {
+  color: $primaryAccent;
+  font-family: $headerFont;
+  font-weight: 900;
+  text-align: right;
+  margin: 0 auto;
+  padding-right: 5px;
+}
+
+h6 {
+  color: $textColor;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  text-align: right;
+}
+
+p {
+  color: $textColor;
+  font-family: "Roboto";
+  font-size: 14px;
+  text-align: right;
+}
+
+wrap {
+  text-decoration: underline #f46036;
+}

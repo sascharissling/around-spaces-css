@@ -1,0 +1,28 @@
+.box {
+  width: 94%;
+  height: auto;
+  background: $boxBackgroundColor;
+  border-radius: 15px;
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  box-shadow: 20px black;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+
+  .badge {
+    color: $boxBackgroundColor;
+    background: $badgeColor;
+    display: inline;
+    border-radius: 5px;
+    font-family: $headerFont;
+    font-size: 12px;
+    padding: 3px 9px;
+    text-align: right;
+  }
+  .content__description {
+    padding: 5px 10px 5px 5px;
+    height: auto;
+  }
+}
