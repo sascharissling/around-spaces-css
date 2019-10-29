@@ -12,6 +12,11 @@
 #F46036 - Portland Orange 
 */
 
+$primaryAccent: #f46036;
+$textColor: #002642;
+$boxBackgroundColor: #c9f0ff;
+$headerFont: Nunito Sans;
+
 body {
   background: linear-gradient(
     0deg,
@@ -35,7 +40,7 @@ body {
 #iconbox {
   width: 85px;
   height: 85px;
-  background: #c9f0ff;
+  background: $boxBackgroundColor;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -54,7 +59,7 @@ body {
 
 .box {
   width: 94%;
-  background: #c9f0ff;
+  background: $boxBackgroundColor;
   border-radius: 15px;
   margin: 20px 0px 20px 0px;
   display: flex;
@@ -70,21 +75,21 @@ body {
 }
 
 h1 {
-  color: #c9f0ff;
+  color: $boxBackgroundColor;
   text-align: center;
-  font-family: "Nunito Sans";
+  font-family: $headerFont;
   font-weight: 900;
 }
 
 h2 {
-  color: #c9f0ff;
-  font-family: "Nunito Sans";
+  color: $boxBackgroundColor;
+  font-family: $headerFont;
   font-weight: 900;
 }
 
 h3 {
-  color: #f46036;
-  font-family: "Nunito Sans";
+  color: $primaryAccent;
+  font-family: $headerFont;
   font-weight: 900;
   text-align: right;
   margin: 0 auto;
@@ -92,14 +97,14 @@ h3 {
 }
 
 h6 {
-  color: #254e70;
+  color: $textColor;
   font-family: "Nunito Sans";
   font-weight: 900;
   text-align: right;
 }
 
 p {
-  color: #254e70;
+  color: $textColor;
   font-family: "Roboto";
   font-size: 14px;
   text-align: right;
