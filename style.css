@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+/* 
+#c9F0FF - Diamond
+#4B88A2 - Rackley
+#002642 - Oxford Blue
+#254E70 - Dark Slate gray
+#F46036 - Portland Orange 
+*/
+
 body {
   background: linear-gradient(
     0deg,
@@ -48,11 +56,17 @@ body {
   width: 94%;
   background: #c9f0ff;
   border-radius: 15px;
-  margin: 30px 0px 30px 0px;
+  margin: 20px 0px 20px 0px;
   display: flex;
+  box-shadow: 20px black;
   flex-direction: row;
+  align-items: center;
   align-content: center;
   justify-content: space-around;
+}
+
+.content__description {
+  padding: 5px 10px 5px 5px;
 }
 
 h1 {
@@ -64,16 +78,30 @@ h1 {
 
 h2 {
   color: #c9f0ff;
-  text-align: center;
   font-family: "Nunito Sans";
   font-weight: 900;
 }
 
 h3 {
   color: #f46036;
-  text-align: center;
   font-family: "Nunito Sans";
   font-weight: 900;
+  text-align: right;
+  margin: 0 auto;
+  padding-right: 5px;
+}
+
+h6 {
+  color: #254e70;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  text-align: right;
+}
+
+p {
+  color: #254e70;
+  font-family: "Roboto";
+  font-size: 14px;
   text-align: right;
 }
 
