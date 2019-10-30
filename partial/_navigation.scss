@@ -16,6 +16,8 @@
     align-items: center;
     justify-content: center;
     box-shadow: 2px 2px;
+    outline: none;
+    border: none;
   }
   .button:hover {
     background-color: $badgeColor;
