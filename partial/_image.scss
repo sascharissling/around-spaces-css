@@ -1,4 +1,16 @@
+img {
+  height: 100%;
+  width: 100%;
+  // zoom: 2;
+  border-radius: 5px 0px 0px 5px;
+  object-fit: cover;
+  object-position: top center;
+}
+
 .shop-image {
-  padding: 5px 5px 5px 5px;
   justify-content: flex-start;
+  flex: 2;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
 }

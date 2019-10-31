@@ -1,10 +1,19 @@
-.navigation-bar {
+.nav-wrap {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  // align-items: center;
+  text-align: center;
+}
+
+.navigation-bar {
   height: 15%;
+  // max-width: 700px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  // align-items: center;
   text-align: center;
   margin-bottom: 15px;
   .button {
@@ -19,7 +28,13 @@
     outline: none;
     border: none;
   }
-  .button:hover {
+}
+.button:hover {
+  background-color: $badgeColor;
+  i {
+    color: $primaryAccent;
+  }
+  .button:active {
     background-color: $badgeColor;
     i {
       color: $primaryAccent;

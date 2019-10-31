@@ -1,27 +1,39 @@
 .box {
-  width: 94%;
-  height: auto;
+  max-width: 700px;
+  height: 170px;
   background: $boxBackgroundColor;
   border-radius: 15px;
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
   display: flex;
-  box-shadow: 2px 2px;
+  box-shadow: 2px 2px 1px;
   flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
+
+  .content__description {
+    padding: 5px 5px 5px 5px;
+    flex: 3;
+    height: auto;
+    text-align: left;
+  }
 
   .badge {
     color: $boxBackgroundColor;
     background: $badgeColor;
     display: inline;
-    border-radius: 5px;
+    border-radius: 15px;
     font-family: $headerFont;
     font-size: 12px;
     padding: 3px 9px;
+    margin-bottom: 10px;
   }
-  .content__description {
-    padding: 5px 10px 5px 5px;
-    height: auto;
+  .badge-nav {
+    color: lightgray;
+    background: $primaryAccent;
+    display: inline;
+    border-radius: 15px;
+    font-family: $headerFont;
+    font-size: 14px;
+    padding: 3px 9px;
+    text-align: left;
   }
 }
