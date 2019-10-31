@@ -4,8 +4,8 @@
   "description": "css version of around spaces",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel *.html",
-    "build": "parcel build *.html"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
   },
   "repository": {
     "type": "git",
