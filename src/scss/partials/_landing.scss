@@ -1,0 +1,36 @@
+.main__fullscreen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(75, 136, 162, 1) 0%,
+    rgba(37, 78, 112, 1) 100%
+  );
+
+  a {
+    text-decoration: none;
+  }
+
+  i {
+    margin: 5px 0px 15px 0px;
+    color: #4b88a2;
+    justify-content: center;
+    animation-name: example;
+    animation-duration: 10s;
+    text-shadow: 0px 0px 1px #fff;
+  }
+}
+
+.explore {
+  border-radius: 5px;
+  border: 1px solid white;
+  display: flex;
+  padding: 2px;
+
+  &:hover {
+    box-shadow: 0px 0px 2px #fff;
+  }
+}

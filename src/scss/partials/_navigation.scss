@@ -15,6 +15,7 @@
   align-items: center;
   text-align: center;
   margin-bottom: 15px;
+
   .button {
     width: 85px;
     height: 85px;
@@ -30,6 +31,7 @@
 }
 .button:hover {
   background-color: $badgeColor;
+  color: $primaryAccent;
   i {
     color: $primaryAccent;
   }
